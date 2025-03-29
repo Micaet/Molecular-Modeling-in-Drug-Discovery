@@ -16,7 +16,7 @@ The specific tools, libraries, and frameworks used throughout the project are do
 To follow our process the notebooks should be read in the following order: 
 
 **Stage 1** <br>
-step1.ipynb
+stage1.ipynb
 
 **Stage 2** <br>
 not yet complete
@@ -28,7 +28,7 @@ not yet complete
 not yet complete
 
 ## Data
-The links to our data can be found in step1.ipynb.
+The links to our data can be found in stage1.ipynb.
 
 ## Authors
 Antoni Rakowski <br>
