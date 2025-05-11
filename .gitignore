@@ -6,3 +6,5 @@ docked_ligands/
 preprocessed_ligands/
 vinardo_scores.csv
 .idea/
+vina.exe
+
