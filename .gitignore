@@ -7,4 +7,5 @@ preprocessed_ligands/
 vinardo_scores.csv
 .idea/
 vina.exe
-
+docked_ligands2/
+preprocessed_ligands2/
