@@ -2,16 +2,6 @@ Enamine_Kinase_Library_plated_64960cmpds_20250316.sdf
 5cno_clean.pdbqt
 clusters.json
 sampled_ligands.sdf
-docked_ligands/
-preprocessed_ligands/
-vinardo_scores.csv
 .idea/
 vina.exe
-docked_ligands2/
-preprocessed_ligands2/
-docked_ligands3/
-preprocessed_ligands3/
-vinardo_scores3.csv
-preprocessed_ligands4/
-vinardo_scores4.csv
-docked_ligands4/
+docking/
