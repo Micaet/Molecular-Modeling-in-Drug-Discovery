@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForceField>
+  <AtomTypes>
+    <Type name="N1" class="N" element="N" mass="14.00672"/>
+    <Type name="N2" class="N" element="N" mass="14.00672"/>
+    <Type name="C1" class="C" element="C" mass="12.01078"/>
+    <Type name="C2" class="C" element="C" mass="12.01078"/>
+    <Type name="C3" class="C" element="C" mass="12.01078"/>
+    <Type name="C4" class="C" element="C" mass="12.01078"/>
+    <Type name="C5" class="C" element="C" mass="12.01078"/>
+    <Type name="C6" class="C" element="C" mass="12.01078"/>
+    <Type name="C7" class="C" element="C" mass="12.01078"/>
+    <Type name="C8" class="C" element="C" mass="12.01078"/>
+    <Type name="C9" class="C" element="C" mass="12.01078"/>
+    <Type name="C10" class="C" element="C" mass="12.01078"/>
+    <Type name="C11" class="C" element="C" mass="12.01078"/>
+    <Type name="C12" class="C" element="C" mass="12.01078"/>
+    <Type name="C13" class="C" element="C" mass="12.01078"/>
+    <Type name="C14" class="C" element="C" mass="12.01078"/>
+    <Type name="C15" class="C" element="C" mass="12.01078"/>
+    <Type name="C16" class="C" element="C" mass="12.01078"/>
+    <Type name="C17" class="C" element="C" mass="12.01078"/>
+    <Type name="C18" class="C" element="C" mass="12.01078"/>
+    <Type name="O1" class="O" element="O" mass="15.99943"/>
+    <Type name="O2" class="O" element="O" mass="15.99943"/>
+    <Type name="O3" class="O" element="O" mass="15.99943"/>
+    <Type name="F" class="F" element="F" mass="18.998403"/>
+    <Type name="H1" class="H" element="H" mass="1.00794"/>
+    <Type name="H2" class="H" element="H" mass="1.00794"/>
+    <Type name="H3" class="H" element="H" mass="1.00794"/>
+  </AtomTypes>
+
+  <Residues>
+    <Residue name="UNL">
+      <Atom name="N1" type="N1"/>
+      <Atom name="N2" type="N2"/>
+      <Atom name="C1" type="C1"/>
+      <Atom name="C2" type="C2"/>
+      <Atom name="C3" type="C3"/>
+      <Atom name="C4" type="C4"/>
+      <Atom name="C5" type="C5"/>
+      <Atom name="C6" type="C6"/>
+      <Atom name="C7" type="C7"/>
+      <Atom name="C8" type="C8"/>
+      <Atom name="C9" type="C9"/>
+      <Atom name="C10" type="C10"/>
+      <Atom name="C11" type="C11"/>
+      <Atom name="C12" type="C12"/>
+      <Atom name="C13" type="C13"/>
+      <Atom name="C14" type="C14"/>
+      <Atom name="C15" type="C15"/>
+      <Atom name="C16" type="C16"/>
+      <Atom name="C17" type="C17"/>
+      <Atom name="C18" type="C18"/>
+      <Atom name="O1" type="O1"/>
+      <Atom name="O2" type="O2"/>
+      <Atom name="O3" type="O3"/>
+      <Atom name="F" type="F"/>
+      <Atom name="H1" type="H1"/>
+      <Atom name="H2" type="H2"/>
+      <Atom name="H3" type="H3"/>
+      <Bond atomName1="N1" atomName2="C1"/>
+      <Bond atomName1="N1" atomName2="H1"/>
+      <Bond atomName1="N1" atomName2="C4"/>
+      <Bond atomName1="C1" atomName2="C9"/>
+      <Bond atomName1="C1" atomName2="O1"/>
+      <Bond atomName1="C2" atomName2="C3"/>
+      <Bond atomName1="C2" atomName2="C8"/>
+      <Bond atomName1="C2" atomName2="C7"/>
+      <Bond atomName1="C3" atomName2="C4"/>
+      <Bond atomName1="C4" atomName2="C5"/>
+      <Bond atomName1="C5" atomName2="C6"/>
+      <Bond atomName1="C6" atomName2="C7"/>
+      <Bond atomName1="C7" atomName2="F"/>
+      <Bond atomName1="N2" atomName2="C8"/>
+      <Bond atomName1="N2" atomName2="H2"/>
+      <Bond atomName1="N2" atomName2="H3"/>
+      <Bond atomName1="C8" atomName2="O2"/>
+      <Bond atomName1="C9" atomName2="C14"/>
+      <Bond atomName1="C9" atomName2="C10"/>
+      <Bond atomName1="C10" atomName2="C11"/>
+      <Bond atomName1="C11" atomName2="C12"/>
+      <Bond atomName1="C12" atomName2="C13"/>
+      <Bond atomName1="C13" atomName2="C14"/>
+      <Bond atomName1="C14" atomName2="O3"/>
+      <Bond atomName1="O3" atomName2="C15"/>
+      <Bond atomName1="C15" atomName2="C16"/>
+      <Bond atomName1="C16" atomName2="C17"/>
+      <Bond atomName1="C16" atomName2="C18"/>
+      <Bond atomName1="C17" atomName2="C18"/>
+    </Residue>
+  </Residues>
+
+  <HarmonicBondForce>
+    <Bond class1="C" class2="C" length="0.146" k="200000.0"/>
+    <Bond class1="C" class2="N" length="0.146" k="200000.0"/>
+    <Bond class1="C" class2="O" length="0.123" k="200000.0"/>
+    <Bond class1="C" class2="F" length="0.135" k="200000.0"/>
+    <Bond class1="C" class2="H" length="0.109" k="200000.0"/>
+    <Bond class1="N" class2="H" length="0.101" k="200000.0"/>
+    <Bond class1="O" class2="H" length="0.096" k="200000.0"/>
+    <Bond class1="N" class2="N" length="0.146" k="200000.0"/>
+    <Bond class1="O" class2="O" length="0.146" k="200000.0"/>
+    <Bond class1="F" class2="H" length="0.101" k="200000.0"/>
+  </HarmonicBondForce>
+
+  <HarmonicAngleForce>
+    <!-- Kąty typu C-C-C -->
+    <Angle class1="C" class2="C" class3="C" angle="2.094395" k="100.0"/>
+    <!-- Kąty typu C-C-N -->
+    <Angle class1="C" class2="C" class3="N" angle="2.094395" k="100.0"/>
+    <!-- Kąty typu C-C-O -->
+    <Angle class1="C" class2="C" class3="O" angle="2.094395" k="100.0"/>
+    <!-- Kąty typu N-C-O -->
+    <Angle class1="N" class2="C" class3="O" angle="2.094395" k="100.0"/>
+    <!-- Kąty typu C-C-H -->
+    <Angle class1="C" class2="C" class3="H" angle="1.910633" k="100.0"/>
+    <!-- Kąty typu N-C-H -->
+    <Angle class1="N" class2="C" class3="H" angle="1.910633" k="100.0"/>
+    <!-- Kąty typu O-C-H -->
+    <Angle class1="O" class2="C" class3="H" angle="1.910633" k="100.0"/>
+    <!-- Kąty typu C-N-H -->
+    <Angle class1="C" class2="N" class3="H" angle="1.910633" k="100.0"/>
+    <!-- Kąty typu C-O-H -->
+    <Angle class1="C" class2="O" class3="H" angle="1.910633" k="100.0"/>
+  </HarmonicAngleForce>
+
+  <PeriodicTorsionForce>
+    <!-- Torsje typu C-C-C-C -->
+    <Proper class1="C" class2="C" class3="C" class4="C" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu C-C-C-N -->
+    <Proper class1="C" class2="C" class3="C" class4="N" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu C-C-C-O -->
+    <Proper class1="C" class2="C" class3="C" class4="O" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu N-C-C-N -->
+    <Proper class1="N" class2="C" class3="C" class4="N" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu O-C-C-O -->
+    <Proper class1="O" class2="C" class3="C" class4="O" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu C-C-N-H -->
+    <Proper class1="C" class2="C" class3="N" class4="H" periodicity1="3" phase1="0.0" k1="0.5"/>
+    <!-- Torsje typu C-C-O-H -->
+    <Proper class1="C" class2="C" class3="O" class4="H" periodicity1="3" phase1="0.0" k1="0.5"/>
+  </PeriodicTorsionForce>
+
+  <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+    <!-- Ładunki atomowe (przykładowe - dostosuj!) -->
+    <Atom type="N1" charge="-0.5" sigma="0.324999852378" epsilon="0.711280"/>
+    <Atom type="N2" charge="-0.5" sigma="0.324999852378" epsilon="0.711280"/>
+    <Atom type="C1" charge="0.2" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C2" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C3" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C4" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C5" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C6" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C7" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C8" charge="0.2" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C9" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C10" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C11" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C12" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C13" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C14" charge="0.1" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C15" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C16" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C17" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="C18" charge="0.0" sigma="0.339966950842" epsilon="0.359824"/>
+    <Atom type="O1" charge="-0.6" sigma="0.295992190115" epsilon="0.87864"/>
+    <Atom type="O2" charge="-0.6" sigma="0.295992190115" epsilon="0.87864"/>
+    <Atom type="O3" charge="-0.6" sigma="0.295992190115" epsilon="0.87864"/>
+    <Atom type="F" charge="-0.2" sigma="0.295992190115" epsilon="0.255224"/>
+    <Atom type="H1" charge="0.3" sigma="0.25" epsilon="0.0157"/>
+    <Atom type="H2" charge="0.3" sigma="0.25" epsilon="0.0157"/>
+    <Atom type="H3" charge="0.3" sigma="0.25" epsilon="0.0157"/>
+  </NonbondedForce>
+</ForceField>
