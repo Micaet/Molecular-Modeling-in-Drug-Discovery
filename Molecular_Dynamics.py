@@ -4,6 +4,11 @@ from openmm import unit
 from sys import stdout
 from pdbfixer import PDBFixer
 import xml.etree.ElementTree as ET
+import os
+
+# Dodaj na początku skryptu, przed rozpoczęciem symulacji
+output_dir = 'dynamics/66/output'
+os.makedirs(output_dir, exist_ok=True)
 
 # --- 1. Inicjalizacja ---
 fixer = PDBFixer('dynamics/66/input/5cno_prepared.pdb')
