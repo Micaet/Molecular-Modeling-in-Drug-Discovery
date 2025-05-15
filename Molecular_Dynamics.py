@@ -106,9 +106,14 @@ simulation.minimizeEnergy()
 # --- 13. Konfiguracja Reporterów ---
 simulation.reporters.append(app.PDBReporter('dynamics/66/output/trajectory.pdb', 1000))
 report_file = open('dynamics/66/output/simulation_data.txt', 'w')
+# !!! zapisac dynamike (xtc reporter)
+# !!! delta G, rmsf, rmsd, sasa (pytraj) (hiustogramy dla nich)
+# !!! czas razy 100
+# !!! openmmforcefiels openfftoolkit <- xml
 simulation.reporters.append(app.StateDataReporter(report_file, 1000, step=True, potentialEnergy=True, temperature=True))
 simulation.reporters.append(app.StateDataReporter(stdout, 1000, step=True, progress=True, remainingTime=True, speed=True, totalSteps=50000))
-
+# !!! przed symulacja zrobic symulacje rozgrzewkowa gdzie co ilesc timestepow ogrzewamy o 1 K,
+# np od 50 do 300
 # --- 14. Uruchomienie Symulacji ---
 print('Running simulation...')
 simulation.step(50000)
