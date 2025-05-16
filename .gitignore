@@ -4,7 +4,7 @@ clusters.json
 sampled_ligands.sdf
 .idea/
 vina.exe
-dynamics/66/output
+dynamics/66/output/*
 deprecated/
 docking/docked*
-docking/preprocessed*
+docking/preprocessed*   

@@ -1,4 +1,0 @@
-select my_ligand, resn UNL
-color blue, my_ligand
-show sticks, my_ligand
-hide everything, resn HOH
