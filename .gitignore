@@ -6,3 +6,5 @@ sampled_ligands.sdf
 vina.exe
 dynamics/66/output
 deprecated/
+docking/docked*
+docking/preprocessed*
