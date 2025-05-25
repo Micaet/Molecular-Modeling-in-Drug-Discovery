@@ -1,4 +1,4 @@
-REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-18
+REMARK   1 CREATED WITH OPENMM 8.2, 2025-05-23
 CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1 
 ATOM      1  N   ASN A   1     -18.803 -31.680   4.467  1.00  0.00           N  
 ATOM      2  CA  ASN A   1     -18.866 -31.432   3.030  1.00  0.00           C  
