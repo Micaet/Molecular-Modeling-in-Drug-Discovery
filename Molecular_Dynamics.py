@@ -624,7 +624,17 @@ for structure_id in structure_ids:
     print('Minimizing energy...')
     simulation.minimizeEnergy()
     minimized_positions = simulation.context.getState(getPositions=True).getPositions()
-    minimized_topology = modeller.topology 
+    minimized_topology = modeller.topology
+
+    # --- Save Minimized System to PDB for GROMACS --- # New section
+    minimized_pdb_path = os.path.join(paths['output_dir'], 'system_minimized.pdb')
+    print(f'Saving minimized system to PDB for GROMACS: {minimized_pdb_path}...')
+    try:
+        app.PDBFile.writeFile(minimized_topology, minimized_positions, open(minimized_pdb_path, 'w'))
+        print(f'Minimized system saved to {minimized_pdb_path}')
+    except Exception as e:
+        print(f'Error saving minimized system to PDB: {e}')
+    # --- End Save Minimized System --- #
 
     # --- 9. Uruchomienie symulacji ---
     print("\nRunning Simulation WITH Heating Phase...")
